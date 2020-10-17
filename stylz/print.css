@@ -1,0 +1,21 @@
+body,input,select,textarea {color:#000;font-family:Arial,Helvetica,sans-serif}
+textarea {height:auto;overflow:visible}
+#pg {width:100%;height:auto}
+#hd {display:none}
+#bd {
+	width:95%;
+	height:auto;
+	border:0;
+	padding:0
+}
+
+#printHeader {display:block}
+.captionWithButton {display:none}
+table {border:0}
+thead { display:table-header-group}
+.noShadeHeader th {border:0}
+td {border:0;font-size:10pt}
+tr {display:table-row !important}
+a, a:link, a:visited, a:hover, a:active {color:#000}
+
+div.pager{display:none}

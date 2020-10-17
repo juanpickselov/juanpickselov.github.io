@@ -1,0 +1,53 @@
+* {line-height:1.5em;margin:0;padding:0}
+a:link, a:hover, a:visited, a:active {color:#7db9e8;text-decoration:none}
+a:hover, a:focus {background-color:#f48000;border-radius:3px;color:#f6f6f6;text-decoration:underline}
+body {background:#aaa url("../imgz/honeycomb.svg") repeat top left;color:#f6f6f6;font:normal 100%/1.5em Helvetica,Arial,Verdana,sans-serif}
+body > div > div {background:#333;border-radius:10px;box-shadow:5px 5px 5px #000;display:inline-table;margin:.5em;min-height:10em;padding:.75em;vertical-align:top}
+body > div > div:first-child {width:66%}
+body > div > div:last-child {background-color:#696969;width:23%}
+body > div > div:last-child h1 {border-bottom:2px solid #333;color:#f48000;font-size:1.75em;font-style:normal;font-variant:small-caps;font-weight:700;margin:0 0 1em;text-align:center;text-shadow:2px 2px 1px #000}
+h1 {border-bottom:1px solid #ddd;color:#f48000;font-size:1.75em;font-style:normal;font-variant:small-caps;font-weight:700;margin:0 0 1em;padding:0 0 .5em;text-align:center;text-shadow:2px 2px 1px #000}
+h2 {color:#f48000;font:700 1.5em "Comic Sans MS",Arial,Verdana,Helvetica,sans-serif;margin:0 0 .5em 1em;padding-right:200px;text-shadow:2px 2px 1px #000}
+h1 + img {display:block;float:right;max-width:100%;padding:0 0 10px}
+p {font-size:1.15em;font-weight:400;margin:0 0 .5em 2em;padding-right:200px}
+dt {color:#f48000;font-size:1.15em;font-variant:small-caps;font-weight:700;line-height:100%;margin:0;text-shadow:1px 1px 1px #333}
+dd {font-size:1.15em;margin-left:.75em}
+dd + dt {margin-top:10px}
+div > p:last-child {border-top:1px solid #ddd;clear:both;display:block;margin:5px 0 0 0;padding-bottom:8px;padding-left:0;text-indent:30px;vertical-align:middle}
+[alt="Juan Pickselov"] {vertical-align:middle}
+
+body.list-resources > div {background:#333;border-radius:10px;display:table;margin:1em;padding:1em;box-shadow:5px 5px 5px #000}
+.list-resources h1 {border-bottom:0;font-size:2em;font-variant:small-caps;margin:7px 0 0;padding:0 0 8px 0;text-shadow:2px 2px 1px #000}
+.list-resources dl {border-bottom:2px solid #7db9e8;border-top:2px solid #7db9e8;margin-bottom:15px;padding:0 0 15px 0;}
+.list-resources dt {font-size:1.25em;font-weight:700;margin:15px 0 3px 0}
+.list-resources dt a, .list-resources dt a:hover, .list-resources dt a:active {background:inherit;color:#f48000}
+.list-resources dd {font-size:1.1em;margin:0 0 0 16px}
+
+.list-songs > div {border-radius:10px;background:#333 url(/imgz/dx27.jpg) no-repeat 98% 120px;display:block;height:auto;margin:.5em;min-height:52em;padding:.75em;box-shadow:5px 5px 5px #000}
+.list-songs dt, .list-songs dd{font-size:1.15em;font-weight:400;margin:0 0 0 1em;padding-right:126px}
+.list-songs dd{margin:0 0 .5em 2em}
+.list-songs h1{border-bottom:1px solid #e0e0e0;color:#f48000;font-size:1.75em;font-style:normal;font-weight:700;margin:0 0 6px;padding:0 0 .2em;text-align:center;text-shadow:2px 2px 1px #000}
+.list-songs h2{color:#f48000;font:700 1.5em "Comic Sans MS",Arial,Verdana,Helvetica,sans-serif;margin:0 0 .2em .5em;padding-right:200px;text-shadow:2px 2px 1px #000}
+.list-songs p{font-size:1.15em;font-weight:400;line-height:1.5em;margin:0 0 30px 30px;padding-right:126px}
+.list-songs div > p:last-child {border-bottom:1px solid #ddd;border-top:0;clear:both;display:block;margin:0 0 30px 0;padding-left:30px;padding-right:126px;text-indent:0;vertical-align:middle}
+
+@media only screen and (max-width: 606px) {
+  body > div > div {display:block;padding:.3em;}
+  body > div > div:first-child {width:auto}
+  body > div > div:last-child {background-color:#696969;width:auto}
+  body.list-resources > div {margin:.5em;padding:.5em}
+  body.list-songs > div {border-radius:10px;background:#333 url(/imgz/dx27.jpg) repeat-y -83px 0;padding:.75em .75em .75em 38px}
+
+  dl {margin-left:.5em}
+  p, .list-songs p {font-size:1em;margin:0 0 .75em 15px;padding-right:0}
+  h2 {font-size:1em;padding-right:0}
+
+  .list-resources dd {font-size:1.1em;margin:0 0 0 8px}
+  .list-songs h1 {font-size:1.5em;text-align:center}
+  .list-songs h2 {font-size:1.25em;padding-right:0}
+  .list-songs h1 + p {border:0;font-size:.9em}
+  .list-resources dt, .list-resources dd, .list-songs dt, .list-songs dd {padding-right:0}
+  .list-songs div > p:last-child {border-bottom:1px solid #ddd;border-top:0;clear:both;display:block;margin:0 0 15px 0;padding-bottom:8px;padding-left:15px;padding-right:0;text-indent:0;vertical-align:middle}
+}
+dd a[href="http://meyerweb.com/eric/css/"]:link{margin-left:-4px;padding:4px}
+dd a[href="http://meyerweb.com/eric/css/"]:hover{background-color:#639;border-radius:3px;padding:4px}
