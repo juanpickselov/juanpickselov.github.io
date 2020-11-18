@@ -11,6 +11,7 @@ h2 {color:#f48000;font:700 1.5em "Comic Sans MS",Arial,Verdana,Helvetica,sans-se
 h1 + img {display:block;float:right;max-width:100%;padding:0 0 10px}
 p {font-size:1.15em;font-weight:400;margin:0 0 .5em 2em;padding-right:200px}
 li {font-size:1.15em;font-weight:700;line-height:100%;list-style-type:none;margin:0;text-shadow:1px 1px 1px #333}
+li a {display:block}
 div > p:last-child {border-top:1px solid #ddd;clear:both;display:block;margin:5px 0 0 0;padding-bottom:8px;padding-left:0;text-indent:30px;vertical-align:middle}
 [alt="Juan Pickselov"] {vertical-align:middle}
 
