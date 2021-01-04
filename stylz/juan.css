@@ -22,7 +22,7 @@ body.list-resources > div {background:#333;border-radius:10px;display:table;marg
 .list-resources dt a, .list-resources dt a:hover, .list-resources dt a:active {background:inherit;color:#f48000}
 .list-resources dd {font-size:1.1em;margin:0 0 0 16px}
 
-.list-songs > div {border-radius:10px;background:#333 url(/imgz/dx27.jpg) no-repeat 98% 120px;display:block;height:auto;margin:.5em;min-height:52em;padding:.75em;box-shadow:5px 5px 5px #000}
+.list-songs > div {border-radius:10px;background:#333 url(/imgz/rd88side.jpg) no-repeat 98% 120px;display:block;height:auto;margin:.5em;min-height:52em;padding:.75em;box-shadow:5px 5px 5px #000}
 .list-songs dt, .list-songs dd{font-size:1.15em;font-weight:400;margin:0 0 0 1em;padding-right:126px}
 .list-songs dd{margin:0 0 .5em 2em}
 .list-songs h1{border-bottom:1px solid #e0e0e0;color:#f48000;font-size:1.75em;font-style:normal;font-weight:700;margin:0 0 6px;padding:0 0 .2em;text-align:center;text-shadow:2px 2px 1px #000}
@@ -35,7 +35,7 @@ body.list-resources > div {background:#333;border-radius:10px;display:table;marg
   body > div > div:first-child {width:auto}
   body > div > div:last-child {background-color:#696969;width:auto}
   body.list-resources > div {margin:.5em;padding:.5em}
-  body.list-songs > div {border-radius:10px;background:#333 url(/imgz/dx27.jpg) repeat-y -83px 0;padding:.75em .75em .75em 38px}
+  body.list-songs > div {border-radius:10px;background:#333 url(/imgz/rd88side.jpg) repeat-y -83px 0;padding:.75em .75em .75em 38px}
 
   dl {margin-left:.5em}
   p, .list-songs p {font-size:1em;margin:0 0 .75em 15px;padding-right:0}
