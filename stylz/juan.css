@@ -29,7 +29,7 @@ body.list-resources > div {background:#333;border-radius:10px;display:table;marg
 .list-songs h2{color:#f48000;font:700 1.5em "Comic Sans MS",Arial,Verdana,Helvetica,sans-serif;margin:0 0 .2em .5em;padding-right:200px;text-shadow:2px 2px 1px #000}
 .list-songs p{font-size:1.15em;font-weight:400;line-height:1.5em;margin:0 0 30px 30px;padding-right:126px}
 .list-songs div > p:last-child {border-bottom:1px solid #ddd;border-top:0;clear:both;display:block;margin:0 0 30px 0;padding-left:30px;padding-right:126px;text-indent:0;vertical-align:middle}
-
+.list-songs div > p:last-child.short-song {border-bottom: none}
 @media only screen and (max-width: 606px) {
   body > div > div {display:block;padding:.3em;}
   body > div > div:first-child {width:auto}
