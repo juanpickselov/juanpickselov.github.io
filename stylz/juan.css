@@ -32,7 +32,7 @@ body.list-resources > div {background:#333;border-radius:10px;display:table;marg
 .list-songs div > p:last-child.short-song {border-bottom: none}
 
 .list-stories > div {border-radius:10px;background:#333;display:block;height:auto;margin:.5em;min-height:52em;padding:.75em;box-shadow:5px 5px 5px #000}
-.list-stories div > p:last-child {border-top: none}
+.list-stories div > p:last-child {border-top:none;font-size:1.15em;font-weight:400;margin:0 0 .5em 2em;padding-right:200px}
 .list-stories div {border-top: #ddd}
 
 @media only screen and (max-width: 606px) {
