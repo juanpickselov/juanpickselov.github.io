@@ -32,7 +32,7 @@ body.list-resources > div {background:#333;border-radius:10px;display:table;marg
 .list-songs div > p:last-child.short-song {border-bottom: none}
 
 .list-stories > div {border-radius:10px;background:#333;display:block;height:auto;margin:.5em;min-height:52em;padding:.75em;box-shadow:5px 5px 5px #000}
-.list-stories div > p:last-child {border-top:none;font-size:1.15em;font-weight:400;margin:0 0 .5em 2em;padding-right:200px;text-indent:0}
+.list-stories div > p:last-child {border-top:none;font-weight:400;margin:0 0 .5em 2em;padding-right:200px;text-indent:0}
 .list-stories div {border-top: #ddd}
 
 @media only screen and (max-width: 606px) {
@@ -51,7 +51,7 @@ body.list-resources > div {background:#333;border-radius:10px;display:table;marg
   .list-songs h2 {font-size:1.25em;padding-right:0}
   .list-songs h1 + p {border:0;font-size:.9em}
   .list-resources dt, .list-resources dd, .list-songs dt, .list-songs dd {padding-right:0}
-  .list-songs div > p:last-child {border-bottom:1px solid #ddd;border-top:0;clear:both;display:block;margin:0 0 15px 0;padding-bottom:8px;padding-left:15px;padding-right:0;text-indent:0;vertical-align:middle}
+  .list-songs div > p:last-child, .list-stories div > p:last-child {border-bottom:1px solid #ddd;border-top:0;clear:both;display:block;margin:0 0 15px 0;padding-bottom:8px;padding-left:15px;padding-right:0;text-indent:0;vertical-align:middle}
 }
 dd a[href="http://meyerweb.com/eric/css/"]:link{margin-left:-4px;padding:4px}
 dd a[href="http://meyerweb.com/eric/css/"]:hover{background-color:#639;border-radius:3px;padding:4px}
